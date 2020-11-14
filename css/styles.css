@@ -1,0 +1,130 @@
+/* Header */
+body {
+    background-color: lightgray;
+}
+.bg-header {
+    background-image: url('../img/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.container {
+    max-width: 1070px;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.second-block {
+    text-align: center;
+    padding-top: 150px;
+}
+.ez {
+    font-size: 40px;
+    color: antiquewhite;
+    opacity: 50%;
+    transition: 0.6s;
+}
+.ez:hover {
+    opacity: 1;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-li {
+    margin-right: 30px;
+}
+.nav-a {
+    color: #fff;
+    font-size: 20px;
+    opacity: 60%;
+    transition: 0.5s;
+}
+.nav-a:hover {
+    opacity: 1;
+}
+.nav-li:last-child {
+    margin-right: 0;
+}
+.ez2 {
+    font-size: 40px;
+    color: #fff;
+}
+.h-p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 18px;
+}
+.bar {
+    display: none;
+    color: #fff;
+    font-size: 32px;
+    opacity: 50%;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.bar:hover {
+    opacity: 1;
+}
+.btn button {
+    margin-top: 60px;
+    border-radius: 0;
+    border: solid 1px;
+    color: rgb(145, 143, 143);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    max-width: 270px;
+    width: 100%;
+    line-height: 60px;
+    background:none;
+    opacity: 50%;
+    transition: 0.6s;
+}
+.but:hover {
+    opacity: 1;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.s-1 {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+}
+.s-2 {
+    max-width: 640px;
+    width: 100%;
+    justify-items: center;
+}
+.img2 {
+    width: 100%;
+}
+.ez3 {
+    font-size: 50px;
+    opacity: 50%;
+}
+.s1-p {
+    font-size: 16px;
+    opacity: 80%;
+    margin-top: 70px;
+}
+.ez4 {
+    font-size: 30px;
+    opacity: 35%;
+    margin: 10px 0;
+}
+.s2-p {
+    font-size: 16px;
+    opacity: 80%;
+}

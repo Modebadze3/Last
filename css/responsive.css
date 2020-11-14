@@ -1,0 +1,31 @@
+@media (max-width: 1000px) {
+    .container2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .s-1 {
+        max-width: 100%;
+    }
+    .s-2 {
+        max-width: 100%;
+    }
+    .btn button {
+        width: 230px;
+    }
+    .img2 {
+        margin-top: 20px;
+    }
+    nav {
+        display: none;
+    }
+    .bar {
+        display: block;
+        display: flex;
+    }
+    .first-block {
+        justify-content: space-around;
+    }
+    .ez3 {
+        font-size: 40px;
+    }
+}
