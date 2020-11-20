@@ -11,9 +11,7 @@
     }
     .btn button {
         width: 230px;
-    }
-    .img2 {
-        margin-top: 20px;
+    
     }
     nav {
         display: none;
@@ -27,5 +25,40 @@
     }
     .ez3 {
         font-size: 40px;
+    }
+    .wraper2 {
+        flex-direction: column;
+        height: auto;
+    }
+    .img1, .img2, .img3 {
+        width: 100%;
+        height: 800px;
+    }
+    .mgi {
+        width: 100%;
+        height: auto;
+    }
+    .container2 {
+        align-items: center;
+        height: auto;
+    
+    }
+}
+@media (max-width: 900px) {
+    .img1, .img2, .img3 {
+        height: 720px;
+    }
+}
+@media (max-width:600px) {
+    .img1, .img2, .img3 {
+        height: 580px;
+    }
+}
+@media (max-width:400px) {
+    .img1, .img2, .img3 {
+        height: 480px;
+    }
+    .first-block {
+        justify-content: space-between;
     }
 }

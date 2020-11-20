@@ -1,6 +1,6 @@
 /* Header */
-body {
-    background-color: lightgray;
+html {
+    scroll-behavior: smooth;
 }
 .bg-header {
     background-image: url('../img/img1.jpg');
@@ -8,15 +8,19 @@ body {
     background-size: cover;
     height: 900px;
 }
-.container {
-    max-width: 1070px;
-    width: 100%;
-    margin: 0 auto;
-}
+
 .first-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 100px;
+    z-index: 20;
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
+    align-items: center;
+    transition: all;
+    background-color:rgba(34,34,34,0.25);
 }
 .second-block {
     text-align: center;
@@ -40,11 +44,10 @@ body {
 .nav-a {
     color: #fff;
     font-size: 20px;
-    opacity: 60%;
     transition: 0.5s;
 }
 .nav-a:hover {
-    opacity: 1;
+    color: lightgrey;
 }
 .nav-li:last-child {
     margin-right: 0;
@@ -73,7 +76,7 @@ body {
     margin-top: 60px;
     border-radius: 0;
     border: solid 1px;
-    color: rgb(145, 143, 143);
+    color: #fff;
     cursor: pointer;
     font-size: 13px;
     font-weight: 900;
@@ -88,43 +91,58 @@ body {
 .but:hover {
     opacity: 1;
 }
+
 .container2 {
+    max-width: 1070px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.wraper1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.wraper1 h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.wraper1-child1 {
+    display: flex;
+    opacity: 60%;
+    line-height: 25px;
+}
+.wraper2 {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 40px;
 }
-.s-1 {
-    max-width: 640px;
-    width: 100%;
+.img1, .img2, .img3 {
+    width: 320px;
+    height: 600px;
     text-align: center;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.s-2 {
-    max-width: 640px;
-    width: 100%;
-    justify-items: center;
+.pp {
+    margin-right: 30px;
 }
-.img2 {
-    width: 100%;
+.mgi {
+    width: 320px;
+    height: 220px;
 }
-.ez3 {
-    font-size: 45px;
-    opacity: 50%;
-}
-.s1-p {
-    font-size: 16px;
+.h2 {
+    font-size: 18px;
     opacity: 80%;
-    margin-top: 70px;
+    margin-top: 15px;
+    margin-bottom: 12px;
 }
-.ez4 {
-    font-size: 30px;
-    opacity: 35%;
-    margin: 10px 0;
-}
-.s2-p {
+.p2 {
     font-size: 16px;
-    opacity: 80%;
+    opacity: 70%;
+    line-height: 25px;
 }
