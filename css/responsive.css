@@ -115,6 +115,13 @@
     .s2-reg2 {
         max-width: 360px;
     }
+    .f {
+        flex-direction: column;
+        padding: 35px;
+    }
+    .f2 {
+        margin-bottom: 20px;
+    }
 
 }
 @media (max-width:400px) {
