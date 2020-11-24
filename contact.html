@@ -9,6 +9,8 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
@@ -44,7 +46,12 @@
                        <input class="email" type="text" name="email">
                        <h2 class="name">Phone</h2>
                        <input class="code" type="tel" name="area_code">
-                       <div class="buto"><button class="a" type="submit">Register</button></div>
+                       <div class="buto"><button id="button" class="a" type="submit">SUBMIT</button></div>
+                       <script>
+                           document.getElementById('button').addEventListener('click', function(){
+                               alert('Your Information has been submitted successfully')
+                           })
+                       </script>
                </div>
                </form>
                 </div>
